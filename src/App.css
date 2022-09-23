@@ -8,3 +8,9 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.carousel {
+  background-image: linear-gradient(red, yellow);
+  background-blend-mode: overlay;
+
+}

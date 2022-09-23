@@ -18,6 +18,9 @@ function App() {
         <Route path='/academic' element={<Academic />}></Route>
         <Route path='/campus' element={<Campus />}></Route>
         <Route path='/addmission' element={<Addmission />}></Route>
+        <Route path='/gallery' element={<Addmission />}></Route>
+        <Route path='/research' element={<Addmission />}></Route>
+        <Route path='/about' element={<Addmission />}></Route>
 
 
         <Route path='*' element={<NotFound />}></Route>
