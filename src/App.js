@@ -7,6 +7,7 @@ import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
+import RequireAuth from './pages/RequireAuth/RequireAuth';
 import Signin from './pages/Signin/Signin';
 import Signup from './pages/Signin/Signup';
 
@@ -19,10 +20,9 @@ function App() {
         <Route path='/home' element={<Home />}></Route>
         <Route path='/faculty' element={<Faculty />}></Route>
         <Route path='/campus' element={<Campus />}></Route>
-        <Route path='/addmission' element={<Addmission />}></Route>
+        <Route path='/addmission' element={<RequireAuth><Addmission /></RequireAuth>}></Route>
         <Route path='/signin' element={<Signin />}></Route>
         <Route path='/signup' element={<Signup />}></Route>
-
 
         <Route path='*' element={<NotFound />}></Route>
       </Routes>

@@ -66,12 +66,12 @@ const Signin = () => {
                             </label>
                         </div>
 
-                        <input type='submit' value='Sign in' className="btn btn-accent w-full mt-4"></input>
+                        <input type='submit' value='Sign in' className="btn btn-neutral w-full mt-4"></input>
                         {userError}
                     </form>
-                    <p className='pt-2'>New to Doctors Portals? <Link className='text-secondary' to='/signup'>Create an account</Link></p>
+                    <p className='pt-2'>New to Brimstone University? <br /> <Link className='text-neutral' to='/signup'>Create an account</Link></p>
                     <div className="divider">OR</div>
-                    <button className="btn btn-outline w-full" onClick={() => signInWithGoogle()} >Continue with google</button>
+                    <button className="btn btn-outline btn-primary w-full" onClick={() => signInWithGoogle()} >Continue with google</button>
                 </div>
             </div>
         </div>

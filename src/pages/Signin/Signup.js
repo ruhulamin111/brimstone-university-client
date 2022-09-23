@@ -77,12 +77,12 @@ const Signup = () => {
                             </label>
                         </div>
 
-                        <input type='submit' value='Sign up' className="btn btn-accent w-full mt-4"></input>
+                        <input type='submit' value='Sign up' className="btn btn-neutral w-full mt-4"></input>
                     </form>
 
-                    <p className='pt-2'>Have an account? <Link className='text-secondary' to='/signin'>Sign in please</Link></p>
+                    <p className='pt-2'>Have an account? <Link className='text-neutral' to='/signin'>Sign in please</Link></p>
                     <div className="divider">OR</div>
-                    <button className="btn btn-outline w-full" onClick={() => signInWithGoogle()} >Continue with google</button>
+                    <button className="btn btn-outline btn-primary w-full" onClick={() => signInWithGoogle()} >Continue with google</button>
                 </div>
             </div>
         </div>
