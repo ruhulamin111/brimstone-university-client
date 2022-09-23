@@ -7,6 +7,8 @@ import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
+import Signin from './pages/Signin/Signin';
+import Signup from './pages/Signin/Signup';
 
 function App() {
   return (
@@ -18,9 +20,8 @@ function App() {
         <Route path='/faculty' element={<Faculty />}></Route>
         <Route path='/campus' element={<Campus />}></Route>
         <Route path='/addmission' element={<Addmission />}></Route>
-        <Route path='/gallery' element={<Addmission />}></Route>
-        <Route path='/research' element={<Addmission />}></Route>
-        <Route path='/about' element={<Addmission />}></Route>
+        <Route path='/signin' element={<Signin />}></Route>
+        <Route path='/signup' element={<Signup />}></Route>
 
 
         <Route path='*' element={<NotFound />}></Route>

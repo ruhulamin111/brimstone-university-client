@@ -1,8 +1,20 @@
-
-gallery 
-https: //i.ibb.co/nwV0NF0/gallery-1.jpg
-https: //i.ibb.co/fXxP8VY/gallery-2.jpg
-https: //i.ibb.co/pWCfQyX/gallery-3.jpg
-https: //i.ibb.co/FXfW0Hf/gallery-4.jpg
-https: //i.ibb.co/5KKxFSv/gallery-5.jpg
-https: //i.ibb.co/NLVtd4f/gallery-6.jpg
+[
+    {
+        "img": "https://i.ibb.co/nwV0NF0/gallery-1.jpg"
+    },
+    {
+        "img": "https://i.ibb.co/fXxP8VY/gallery-2.jpg"
+    },
+    {
+        "img": "https://i.ibb.co/pWCfQyX/gallery-3.jpg"
+    },
+    {
+        "img": "https://i.ibb.co/FXfW0Hf/gallery-4.jpg"
+    },
+    {
+        "img": "https://i.ibb.co/5KKxFSv/gallery-5.jpg"
+    },
+    {
+        "img": "https://i.ibb.co/NLVtd4f/gallery-6.jpg"
+    }
+]

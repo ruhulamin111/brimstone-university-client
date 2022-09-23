@@ -15,7 +15,7 @@ const Header = () => {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/faculty">Academic</Link></li>
                         <li><Link to="/campus">Campus</Link></li>
-                        <li><Link to="/">Addmission</Link></li>
+                        <li><Link to="/addmission">Addmission</Link></li>
                         <li><Link to="/">Gallery</Link></li>
                         <li><Link to="/">Research</Link></li>
                         <li><Link to="/">About</Link></li>
@@ -28,7 +28,7 @@ const Header = () => {
                     <li><Link className='hover:bg-secondary' to="/">Home</Link></li>
                     <li><Link className='hover:bg-secondary' to="/faculty">Academic</Link></li>
                     <li><Link className='hover:bg-secondary' to="/campus">Campus</Link></li>
-                    <li><Link className='hover:bg-secondary' to="/">Addmission</Link></li>
+                    <li><Link className='hover:bg-secondary' to="/addmission">Addmission</Link></li>
                     <li><Link className='hover:bg-secondary' to="/">Gallery</Link></li>
                     <li><Link className='hover:bg-secondary' to="/">Research</Link></li>
                     <li><Link className='hover:bg-secondary' to="/">About</Link></li>
