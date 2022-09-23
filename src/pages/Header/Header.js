@@ -13,7 +13,7 @@ const Header = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52 font-medium ">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/">Academic</Link></li>
+                        <li><Link to="/faculty">Academic</Link></li>
                         <li><Link to="/">Campus</Link></li>
                         <li><Link to="/">Addmission</Link></li>
                         <li><Link to="/">Gallery</Link></li>
@@ -26,7 +26,7 @@ const Header = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal text-lg font-medium p-0">
                     <li><Link className='hover:bg-secondary' to="/">Home</Link></li>
-                    <li><Link className='hover:bg-secondary' to="/">Academic</Link></li>
+                    <li><Link className='hover:bg-secondary' to="/faculty">Academic</Link></li>
                     <li><Link className='hover:bg-secondary' to="/">Campus</Link></li>
                     <li><Link className='hover:bg-secondary' to="/">Addmission</Link></li>
                     <li><Link className='hover:bg-secondary' to="/">Gallery</Link></li>
