@@ -24,8 +24,8 @@ const Signup = () => {
     }
 
     return (
-        <div className='flex justify-center items-center'>
-            <div className="card w-96 bg-base-100 shadow-xl py-4">
+        <div className='flex justify-center pb-5 items-center'>
+            <div className="card w-96 bg-base-100 shadow-xl pb-4">
                 <div className="card-body items-center text-center">
                     <h2 className="card-title mb-4">Sign up</h2>
                     <form onSubmit={handleSubmit(onSubmit)} className='w-full'>

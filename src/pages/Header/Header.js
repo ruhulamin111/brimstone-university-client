@@ -1,8 +1,11 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../firbase.init';
 
 const Header = () => {
-
+    const [user] = useAuthState(auth)
 
     return (
         <div className="navbar w-11/12 mx-auto h-20 ">
@@ -19,6 +22,7 @@ const Header = () => {
                         <li><Link to="/">Gallery</Link></li>
                         <li><Link to="/">Research</Link></li>
                         <li><Link to="/">About</Link></li>
+                        {user && <li><Link to="">Sign Out</Link></li>}
                     </ul>
                 </div>
                 <Link to="/" className="normal-case text-2xl font-bold text-primary "><span className='text-neutral'>Brimstone</span> <br /> University</Link>
@@ -32,6 +36,7 @@ const Header = () => {
                     <li><Link className='hover:bg-secondary' to="/">Gallery</Link></li>
                     <li><Link className='hover:bg-secondary' to="/">Research</Link></li>
                     <li><Link className='hover:bg-secondary' to="/">About</Link></li>
+                    {user && <li><Link className='hover:bg-secondary' to="/" onClick={() => signOut(auth)}>Sign Out</Link></li>}
                 </ul>
             </div>
             <div className="navbar-end">
