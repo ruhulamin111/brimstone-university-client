@@ -40,7 +40,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to="/" className="btn btn-primary text-white hover:text-primary hover:bg-white">Apply Now</Link>
+                <Link to="/addmission" className="btn btn-primary text-white hover:text-primary hover:bg-white" >Apply Now</Link>
             </div>
         </div>
     );
