@@ -1,4 +1,7 @@
 import React from 'react';
+import banner1 from '../../assets/banner/banner-1.jpg'
+import banner2 from '../../assets/banner/banner-2.jpg'
+import banner3 from '../../assets/banner/banner-3.jpg'
 
 const Banner = () => {
 
@@ -30,35 +33,37 @@ const Banner = () => {
                 <div className="carousel-inner relative w-full overflow-hidden">
                     <div className="carousel-item active relative float-left w-full">
                         <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-                            className="block w-full"
+                            src={banner1}
+                            className="block h-screen object-cover w-full "
                             alt="..."
                         />
                         <div className="carousel-caption hidden md:block absolute text-center">
-                            <h5 className="text-xl">First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5 className="text-5xl font-bold leading-relaxed"><span className='text-neutral'>EDUCATION IS THE MOST</span> <br /> POWERFUL WEAPON</h5>
+                            <p className='text-2xl font-semibold'>An educated mind can teach many.
+                            </p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
                         <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-                            className="block w-full"
+                            src={banner2}
+                            className="block h-screen object-cover w-full"
                             alt="..."
                         />
                         <div className="carousel-caption hidden md:block absolute text-center">
-                            <h5 className="text-xl">Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5 className="text-5xl font-bold leading-relaxed text-neutral"><span className='text-primary'>Be educated so that </span> <br /> you can change the world</h5>
+                            <p className='text-2xl font-semibold text-black'>Education is the key to all the locked doors of the unknown</p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
                         <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-                            className="block w-full"
+                            src={banner3}
+                            className="block h-screen object-cover w-full"
                             alt="..."
                         />
                         <div className="carousel-caption hidden md:block absolute text-center">
-                            <h5 className="text-xl">Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5 className="text-5xl font-bold leading-relaxed text-neutral"><span className='text-secondary'>An educated mind  </span> <br />is better than an empty one</h5>
+                            <p className='text-2xl font-semibold '>The only weapon to fight injustice is Education.
+                            </p>
                         </div>
                     </div>
                 </div>
